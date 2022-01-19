@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Roboto:wght@300&family=Signika+Negative&family=Yantramanav:wght@500&display=swap');
 @import "reset.css";
 @import "variables.css";
 
@@ -8,11 +7,15 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
 body{
-    font-family: 'Arvo', serif;
+    font-family: 'Yantramanav', sans-serif;
     height: 1000vh;
     color : #191919;
+}
+.main-screen{
+    padding:opx var(--horizontal-space);
 }
